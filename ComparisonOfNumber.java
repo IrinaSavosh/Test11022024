@@ -14,13 +14,7 @@ public class ComparisonOfNumber {
     * @param args
     */
    public static void main(String[] args) {
-      ArrayList<Integer> array = new ArrayList<>();
-      int size = 100;
-
-      for (int i = 0; i < size; i++) {
-         Random rnd = new Random();
-         array.add(rnd.nextInt(10));
-      }
+      
       System.out.print("Введите первое число: ");
       Scanner scan = new Scanner(System.in);
       int numberOne = scan.nextInt();
